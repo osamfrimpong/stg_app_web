@@ -653,7 +653,7 @@
       {
         "id": 116,
         "title": "Anaemia in Pregnancy",
-        "address": "anaemia_in_pregancy.html"
+        "address": "anaemia_in_pregnancy.html"
       },
       {
         "id": 117,
@@ -990,11 +990,6 @@
         "id": 179,
         "title": "STI-related Ano-Rectal Related Syndromes in Children",
         "address": "sti_related_anorectal_related_syndromes_in_children.html"
-      },
-      {
-        "id": 180,
-        "title": "HIV Infection and AIDS",
-        "address": "hiv_infection_and_aids.html"
       }
     ]
   },
@@ -1002,6 +997,11 @@
     "chapter": 17,
     "title": "HIV Infection and AIDS",
     "subitems": [
+      {
+        "id": 180,
+        "title": "HIV Infection and AIDS",
+        "address": "hiv_infection_and_aids.html"
+      },
       {
         "id": 181,
         "title": "HIV Post Exposure Prophylaxis (PEP) for exposed healthcare personel",
@@ -1505,11 +1505,6 @@
         "id": 258,
         "title": "Breast Cancer",
         "address": "breast_cancer.html"
-      },
-      {
-        "id": 259,
-        "title": "General Management of Poisoning",
-        "address": "general_management_of_poisoning.html"
       }
     ]
   },
@@ -1518,9 +1513,9 @@
     "title": "General Management of Poisoning",
     "subitems": [
       {
-        "id": 260,
-        "title": "Medicines Use in the Elderly",
-        "address": "medicines_use_in_the_elderly.html"
+        "id": 259,
+        "title": "General Management of Poisoning",
+        "address": "general_management_of_poisoning.html"
       }
     ]
   },
@@ -1529,7 +1524,7 @@
     "title": "Medicines Use in the Elderly",
     "subitems": [
       {
-        "id": 261,
+        "id": 260,
         "title": "Medicines Use in the Elderly",
         "address": "medicines_use_in_the_elderly.html"
       }
@@ -1540,7 +1535,7 @@
     "title": "Local Anaesthetic Agents",
     "subitems": [
       {
-        "id": 262,
+        "id": 261,
         "title": "Local Anaesthetic Agents",
         "address": "local_anaesthetics_agents.html"
       }
@@ -1551,7 +1546,7 @@
     "title": "Structured Approach to the Seriously Ill Child",
     "subitems": [
       {
-        "id": 263,
+        "id": 262,
         "title": "Structured Approach to the Seriously Ill Child",
         "address": "structured_approach_to_illchild.html"
       }
@@ -1562,10 +1557,11 @@
     "title": "Coronavirus Disease",
     "subitems": [
       {
-        "id": 264,
+        "id": 263,
         "title": "Coronavirus Disease(COVID-19)",
         "address": "coronovirus_disease.html"
       }
     ]
   }
 ]
+S
