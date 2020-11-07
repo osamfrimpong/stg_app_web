@@ -109,16 +109,24 @@
     <script src="js/halfmoon.min.js"></script>
     <script src="js/jquery-3.5.1.min.js"></script>
 <script type="text/javascript">
+function getInner(items){
+  let inner = "";
+  $.each(items,function(key,subItem){
+     inner+=`<a href="">`+subItem.title+`</a>`;
+      });
+      return inner+`</div></details>`;
+}
  let sideBarContainer = $("#sidebar-menu");
+var inner = "";
  let content = `<h5 class="sidebar-title">Contents</h5>
         <div class="sidebar-divider"></div>`; 
   sideBarContainer.append(content);
   $.getJSON('json/table_of_contents.json',function(data){
     $.each(data,function(key,chapterItem){
-      sideBarContainer.append(`<a href="#" class="sidebar-link">`+chapterItem.title+`</a><div class="sidebar-divider"></div>`);
-      $.each(chapterItem.subitems,function(key,subItem){
-        // console.log(subItem);
-      });
+      sideBarContainer.append(`<details class="collapse-panel w-400 mw-full">
+  <summary class="collapse-header">`+chapterItem.title+`</summary>
+  <div class="collapse-content">`);
+      sideBarContainer.append(getInner(chapterItem.subitems));
     });
     
   });
