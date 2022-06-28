@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 <?php 
 
@@ -13,6 +14,13 @@ if(isset($_POST['submit'])){
 }
 ?>
 <!DOCTYPE html>
+=======
+<!DOCTYPE html><!--
+	Copyright (c) 2014-2021, CKSource - Frederico Knabben. All rights reserved.
+	This file is licensed under the terms of the MIT License (see LICENSE.md).
+-->
+
+>>>>>>> f10b64b7b664a3b9b1e064559abb969e4f7f758b
 <html lang="en" dir="ltr">
 	<head>
 		<title>CKEditor 5 ClassicEditor build</title>
@@ -24,6 +32,7 @@ if(isset($_POST['submit'])){
 	<body data-editor="ClassicEditor" data-collaboration="false" data-revision-history="false">
 		
 		<main>
+<<<<<<< HEAD
 			<form method="POST" action="index.php">
 			<div class="centered">
 				<div class="row">
@@ -43,6 +52,22 @@ if(isset($_POST['submit'])){
 			</form>
 		</main>
 		<script src="ckeditor.js"></script>
+=======
+			
+			<div class="centered">
+				<div class="row row-editor">
+					<div class="editor-container">
+						<div class="editor">
+							
+						
+							
+						</div>
+					</div>
+				</div></div>
+			</div>
+		</main>
+		<script src="../build/ckeditor.js"></script>
+>>>>>>> f10b64b7b664a3b9b1e064559abb969e4f7f758b
 		<script>
 			const watchdog = new CKSource.EditorWatchdog();
 			
